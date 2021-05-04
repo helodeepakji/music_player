@@ -29,8 +29,8 @@ let track_list = [
 	path: "love.mp3"
 },
 {
-	name: "Enthusiast",
-	artist: "Tours",
+	name: "Vroom Vroom",
+	artist: "Badshah",
 	image: "https://cdn.shopify.com/s/files/1/1061/1924/products/17_large.png?v=1571606116",
 	path: "vroom.mp3"
 },
