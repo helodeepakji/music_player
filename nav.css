@@ -27,7 +27,7 @@
 }
 .navbar .logo h1 a{
   color: #fff;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 400;
   text-decoration: none;
   transition: all 0.3s ease;
@@ -45,7 +45,7 @@
 
 .menu-list li a{
   color: #fff;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
   margin-left: 25px;
   text-decoration: none;
