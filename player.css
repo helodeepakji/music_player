@@ -4,7 +4,7 @@ body {
     .player {
     padding-top: 300px;
     padding-bottom: 200px;
-    height: 140vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     flex-direction: column;
