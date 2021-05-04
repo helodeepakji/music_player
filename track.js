@@ -35,13 +35,13 @@ let track_list = [
 	path: "vroom.mp3"
 },
 {
-	name: "Shipping Lanes",
+	name: "Ship",
 	artist: "Chad Crouch",
 	image: "https://i.pinimg.com/originals/b1/e8/46/b1e8460632b3b1164f874b20262dfc45.png",
 	path: "Shipping_Lanes.mp3",
 },
 {
-	name: "Shipping Lanes",
+	name: "Shianes",
 	artist: "Chad Crouch",
 	image: "https://i.pinimg.com/originals/30/f4/3e/30f43e8ac82ee74661963a77bbe9a534.png",
 	path: "Lanes.mp3",
