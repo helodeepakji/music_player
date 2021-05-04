@@ -2,6 +2,7 @@ body {
     transition: background-color .5s;
     }
     .player {
+    width : 100%;
     padding-top: 300px;
     padding-bottom: 200px;
     height: 100vh;
