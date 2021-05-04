@@ -121,7 +121,7 @@
     <div class="icon facebook">
       <div class="tooltip">
         Facebook</div>
-      <span> <a style="text-decoration:none" href="https://www.facebook.com/profile.php?id=100035800776971"> <i class="fab fa-facebook-f"></i></a></span>
+      <span> <a style="text-decoration:none" href="href="https://www.facebook.com/profile.php?id=100035800776971"> <i class="fab fa-facebook-f"></i></a></span>
     </div>
     <div class="icon twitter">
       <div class="tooltip">
@@ -131,36 +131,32 @@
     <div class="icon instagram">
       <div class="tooltip">
         Instagram</div>
-      <span> <a style="text-decoration:none" href="https://www.instagram.com/hellodeepakji"> <i class="fab fa-instagram"> </i> </a> </span>
-    </div>
-    <div class="icon github">
-      <div class="tooltip">
-        Linkedin</div>
-      <span> <a style="text-decoration:none" href="https://in.linkedin.com/in/helodeepakji"> <i class="fab fa-linkedin"></i></a></span>
+      <span> <a style="text-decoration:none" href="https://www.instagram.com/hellodeepakji/?hl=en"> <i class="fab fa-instagram"> </i> </a> </span>
     </div>
   </div>
 </div>
   
+<script>
+  const body = document.querySelector("body");
+  const navbar = document.querySelector(".navbar");
+  const menuBtn = document.querySelector(".menu-btn");
+  const cancelBtn = document.querySelector(".cancel-btn");
+  menuBtn.onclick = ()=>{
+    navbar.classList.add("show");
+    menuBtn.classList.add("hide");
+    body.classList.add("disabled");
+  }
+  cancelBtn.onclick = ()=>{
+    body.classList.remove("disabled");
+    navbar.classList.remove("show");
+    menuBtn.classList.remove("hide");
+  }
+  window.onscroll = ()=>{
+    this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+  }
+</script>
 
-  <script>
-    const body = document.querySelector("body");
-    const nabar = document.querySelector(".navbar");
-    const menuBtn = document.querySelector(".menu-btn");
-    const cancelBtn = document.querySelector(".cancel-btn");
-    menuBtn.onclick = () => {
-      navbar.classList.add("show");
-      menuBtn.classList.add("hide");
-      body.classList.add("disabled");
-    }
-    cancelBtn.onclick = () => {
-      body.classList.remove("disabled");
-      navbar.classList.remove("show");
-      menuBtn.classList.remove("hide");
-    }
-    window.onscroll = () => {
-      this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
-    }
-  </script>
+  
    <script src="track.js"></script>
    <script src="player.js"></script>
 </body>
