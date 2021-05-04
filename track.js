@@ -35,16 +35,16 @@ let track_list = [
 	path: "vroom.mp3"
 },
 {
-	name: "Ship",
-	artist: "Chad Crouch",
+	name: "Zara Sa",
+	artist: "Deepak Maurya",
 	image: "https://i.pinimg.com/originals/b1/e8/46/b1e8460632b3b1164f874b20262dfc45.png",
-	path: "Shipping_Lanes.mp3",
+	path: "zara_sa.mp3",
 },
 {
-	name: "Shianes",
-	artist: "Chad Crouch",
+	name: "Simmba",
+	artist: "Thank you",
 	image: "https://i.pinimg.com/originals/30/f4/3e/30f43e8ac82ee74661963a77bbe9a534.png",
-	path: "Lanes.mp3",
+	path: "simmba.mp3",
 },
 ];
 
