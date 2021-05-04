@@ -2,10 +2,9 @@ body {
     transition: background-color .5s;
     }
     .player {
-    width : 100%;
     padding-top: 300px;
     padding-bottom: 200px;
-    height: 100vh;
+    height: 140vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -134,3 +133,15 @@ body {
     i.fa-step-backward {
     cursor: pointer;
     }
+
+    @media (max-width: 500px) {
+        .player{
+            padding-top: 300px;
+            padding-bottom: 200px;
+            height: 130vh;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+        }
+      }
