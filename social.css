@@ -3,7 +3,7 @@
     padding: 80px;
     height: 180px;
     width: 100%;
-    left: 30%;
+
 }
 .social{
   display: inline-flex;
@@ -100,7 +100,7 @@
         position: absolute;
         padding: 80px;
         height: 180px;
-        left: 2%;
+        
     }
   }
 
@@ -109,7 +109,7 @@
         position: absolute;
         padding: 80px;
         height: 180px;
-        left: -7%;
+       
     }
   }
 
