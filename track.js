@@ -42,9 +42,15 @@ let track_list = [
 },
 {
 	name: "Simmba",
-	artist: "Thank you",
+	artist: "Enjoy ",
 	image: "https://i.pinimg.com/originals/30/f4/3e/30f43e8ac82ee74661963a77bbe9a534.png",
 	path: "simmba.mp3",
+},
+{
+	name: "Sitarey",
+	artist: "Thank you",
+	image: "moneye.png",
+	path: "Sitarey Full Lyrical Video Song _ Tigerstyle Feat. Jaz Dhami _ Punjabi Song(MP3_70K)_1.mp3",
 },
 ];
 
