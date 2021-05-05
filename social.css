@@ -31,8 +31,15 @@
   box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
   transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
+.social .icon span a{
+ color: #fff;
+ font-size: 20px;
+ font-weight: 500;
+ text-decoration: none;
+ transition: all 0.3s ease;
+}
 
-.social .icon span i{
+.social .icon span a i{
   line-height: 60px;
   font-size: 25px;
 }
