@@ -36,7 +36,7 @@ let track_list = [
 },
 {
 	name: "Zara Sa",
-	artist: "Deepak Maurya",
+	artist: "Naveen Sagar",
 	image: "https://i.pinimg.com/originals/b1/e8/46/b1e8460632b3b1164f874b20262dfc45.png",
 	path: "zara_sa.mp3",
 },
